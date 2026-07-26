@@ -1,0 +1,135 @@
+/*Global Styling*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #0077B6;
+    text-decoration: none;
+}
+/*lexy Navigation Bar*/
+
+#bank{
+    background-color: rgb(250, 250, 250);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.8);
+    
+}
+.service{
+    display: flex;
+    align-items: center;  
+    min-height: 9vh; 
+    width: 80%;
+    margin: auto;
+ 
+}
+.service ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 10rem;
+    justify-content: space-between;
+}
+
+.lexy{
+    width: 100px;
+}
+.logo{
+    flex: 1 1 10rem;
+}
+/*Styling the main parent Hero*/
+
+#hero{
+    min-height: 80vh;
+    background-color: #F8FAFC;
+
+}
+/*styling the childhero*/
+
+
+.childhero {
+    min-height: 60vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+/*styling the heading in the box*/
+
+.box1 h1{
+    color: #00B4D8;
+    font-size: 40px;
+}
+.box1 span{
+color: #FFD166;
+}
+/*styling the image in box 1 &2*/
+.box1{
+    flex: 1 1 15rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 2rem 0.5rem 2rem;
+}
+.box2{
+    flex: 1 1 15rem;
+    padding: 3rem 2rem 2rem 2rem;
+}
+/*styling the image in box 2*/
+.coding{
+    width: 100%;
+}
+
+.details{
+    font-size: 12px;
+    padding-bottom: 1.2rem;
+    color: #0077B6;
+    padding-top: 0.5rem;
+}
+.Click{
+    width: 30%;
+    padding: 0.8rem 2rem;
+    border: none;
+    background-color: #0077B6;
+    color: #FFD166;
+}
+/*Studying Cards Coding*/
+#game{
+    min-height: 70vh;
+    background-color: #FFD166;
+}
+
+.play{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 4px;
+
+}
+.cards{
+    flex: 1 1 6rem;
+    padding: 0.8rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    h3{
+        color: #0077B6;
+    }
+    p{
+        font-size: 10px;
+        opacity: 0.6;
+        padding: 0.5rem 0rem;
+    }
+}
+.move{
+    padding: 2rem 2rem;
+    text-align: center;
+    h1{
+        color: #0077B6;
+        padding-top: 2rem;
+    }
+}
+.cards img{
+    width: 80px;
+}

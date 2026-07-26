@@ -1,0 +1,12 @@
+ .car{
+    font: 80px;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+ }
+ #toyota{
+    font: 80px;
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    text-align: center;
+ }

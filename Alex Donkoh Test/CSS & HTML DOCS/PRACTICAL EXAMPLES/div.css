@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.UNITY{
+    min-height: 100vh;
+    background-image: url("stranded\ boy\ image.jpg");
+    background-position: center;
+    background-size: cover;
+}

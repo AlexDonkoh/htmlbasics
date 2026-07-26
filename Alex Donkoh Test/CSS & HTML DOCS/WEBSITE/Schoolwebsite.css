@@ -1,0 +1,203 @@
+/*GLOBAL STYLING*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*cloud school navigation bar design 1*/
+.fun{
+    color: white;
+   text-decoration: none;
+}
+#A{
+    background-color: rgba(2, 2, 95, 0.961);
+    box-shadow: 1px 1px #634763;
+
+}
+.B{
+    display: flex;
+    align-items: center;
+    min-height: 9vh;
+    width: 80%;
+    margin: auto;
+
+}
+.B ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 10rem;
+    justify-content: space-between;
+    color: white;
+}
+
+.go{
+    width: 12%;
+    border: none;
+    flex-grow: 1 20rem;
+}
+
+/*cloud school navigation bar 2 */
+a{
+    color: rgb(50, 2, 153);
+    text-decoration: none;
+}
+#A2{
+    background-color: rgba(218, 220, 231, 0.603);
+    box-shadow: 1px 1px rgba(8, 8, 8, 0.411);
+}
+.B2{
+    display: flex;
+    align-items: center;
+    min-height: 5vh;
+    width: 90%;
+    margin: auto;
+}
+.B2 ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 10rem;
+    justify-content: space-between;
+    font-size: 15px;
+    color: rgb(5, 5, 86);
+}
+.C2{
+    flex: 1 1 15rem;
+    padding-right: 2rem;
+    display: flex;
+}
+.C2 h3{
+    color: rgb(44, 3, 114);
+}
+.D2{
+    width: 110px;
+}
+
+/*Styling the main body*/
+#alpha{
+    min-height: 80vh;
+    background-color: rgb(245, 248, 248);
+}
+.omega{
+    min-height: 60vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+
+}
+.box h2{
+    color: rgb(37, 2, 143);
+    font-size: 40px;
+}
+.box{
+    flex: 1 1 15rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 2rem 0.5rem 2rem;
+}
+.address{
+    font-size: 14px;
+    padding-bottom: 1.2rem;
+    color: #231863be;
+    padding-top: 0.5rem;
+}
+.box2{
+    flex: 1 1 15rem;
+    padding: 3rem 2rem 1rem 2rem;
+}
+.picture1{
+    width: 600px;
+}
+/*styling the main body section2*/
+#step2{
+    min-height: 80vh;
+    background-color: rgb(245, 248, 248);
+}
+.again{
+    min-height: 60vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.box3{
+    flex: 1 1 15rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+}
+.box3 h3{
+    color: rgb(37, 2, 143);
+    font-size: 80px;
+}
+.info{
+    font-size: 16px;
+    padding-bottom: 1.2rem;
+    color: #231863be;
+    padding-top: 0.5rem;
+}
+.box4{
+    flex: 1 1 15rem;
+    padding: 5.8rem 2rem 1rem 2rem;
+}
+.picture2{
+    width: 700px;
+    padding: 0rem 0rem 0rem 12rem;
+}
+/*Styling the main body Section 3*/
+#step3{
+    min-height: 80vh;
+    background-color: rgb(245, 248, 248);
+}
+.addition{
+    min-height: 60vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.box5 h3{
+    color: rgb(37, 2, 143);
+    font-size: 40px;
+}
+.box5{
+    flex: 1 1 15rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 2rem 0.5rem 2rem;
+}
+.particulars{
+    font-size: 16px;
+    padding-bottom: 1.2rem;
+    color: #231863be;
+    padding-top: 0.5rem;
+}
+.box6{
+    flex: 1 1 15rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.picture3{
+    width: 600px;
+}
+/*styling The Footer*/
+#end{
+    min-height: 30vh;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    background-color: rgba(40, 4, 97, 0.961);
+   
+}
+.me{
+    display: flex;
+    align-items: center;
+    min-height: 9vh;
+    width: 80%;
+    margin: auto;
+
+}
+.me ul{
+    display: flex;
+    list-style: none;
+    flex: 5 2 10rem;
+    justify-content: space-between;
+    color: white;
+}
+

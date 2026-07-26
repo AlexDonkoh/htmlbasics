@@ -1,0 +1,136 @@
+/*GLOBAL STYLING*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*cloud school navigation bar design 1*/
+.fun{
+    color: white;
+   text-decoration: none;
+}
+#A{
+    background-color: rgba(2, 2, 95, 0.961);
+    box-shadow: 1px 1px #634763;
+
+}
+.B{
+    display: flex;
+    align-items: center;
+    min-height: 9vh;
+    width: 80%;
+    margin: auto;
+
+}
+.B ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 10rem;
+    justify-content: space-between;
+    color: white;
+}
+
+.go{
+    width: 12%;
+    border: none;
+    flex-grow: 1 20rem;
+}
+
+/*cloud school navigation bar 2 */
+a{
+    color: rgb(50, 2, 153);
+    text-decoration: none;
+}
+#A2{
+    background-color: rgba(218, 220, 231, 0.603);
+    box-shadow: 1px 1px rgba(8, 8, 8, 0.411);
+}
+.B2{
+    display: flex;
+    align-items: center;
+    min-height: 5vh;
+    width: 90%;
+    margin: auto;
+}
+.B2 ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 10rem;
+    justify-content: space-between;
+    font-size: 15px;
+    color: rgb(5, 5, 86);
+}
+.C2{
+    flex: 1 1 15rem;
+    padding-right: 2rem;
+    display: flex;
+}
+.C2 h3{
+    color: rgb(44, 3, 114);
+}
+.D2{
+    width: 110px;
+}
+/*styling the images*/
+
+.st1{
+    flex: 1 1 15rem;
+    padding: 0;
+    display: flex;
+    float: right;
+
+}
+.st1 img{
+    width: 640px;
+}
+.st2{
+     flex: 1 1 15rem;
+    padding: 0;
+    display: flex;
+
+}
+.st2 img{
+    width: 640px;
+}
+.st3{
+    flex: 1 1 15rem;
+    padding-right: 0;
+    display: flex;
+    float: right;
+}
+.st3 img{
+    width: 640px;
+}
+.st4{
+     flex: 1 1 15rem;
+    padding-right: 0;
+    display: flex;
+}
+.st4 img{
+    width: 640px;
+}
+/*styling the footer*/
+#end{
+    min-height: 30vh;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    background-color: rgba(40, 4, 97, 0.961);
+   
+}
+.me{
+    display: flex;
+    align-items: center;
+    min-height: 9vh;
+    width: 80%;
+    margin: auto;
+
+}
+.me ul{
+    display: flex;
+    list-style: none;
+    flex: 5 2 10rem;
+    justify-content: space-between;
+    color: white;
+}
+

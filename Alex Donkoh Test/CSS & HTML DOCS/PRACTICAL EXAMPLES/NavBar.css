@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lexy{
+    min-height: 90vh;
+    background-image: url(sea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+#teams{
+    display: flex;
+    background-color: rgb(243, 237, 242);
+    width: 100%;
+    min-height: 8vh;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem;
+}

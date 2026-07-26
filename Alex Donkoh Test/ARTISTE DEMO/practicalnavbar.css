@@ -1,0 +1,35 @@
+/*Global Styling*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+}
+
+/*Practical Navigation Bar*/
+
+#cloud{
+    background-color: blue;
+    min-height: 7vh;
+}
+
+.atmosphere{
+    display: flex;
+
+}
+
+.atmosphere ul{
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+   gap: 5rem;
+}
+
+.planet{
+    width: 40px;
+}
